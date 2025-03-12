@@ -269,7 +269,7 @@
                     </div>
                 </div>
                 
-                <form class="contact-form fade-in" name="contact" method="POST" data-netlify="true">
+                <form class="contact-form fade-in" name="contact" action="post" method="POST" data-netlify="true">
                     <input type="hidden" name="form-name" value="contact">
                     <div class="form-group">
                         <input type="text" class="form-control" id="name" name="name" required>
@@ -287,6 +287,7 @@
                         <textarea class="form-control" id="message" name="message" required></textarea>
                         <label for="message" class="form-label">Your Message</label>
                     </div>
+                    <div data-netlify-recaptcha="true"></div>
                     <button type="submit" class="submit-btn">Send Message</button>
                 </form>
                                
