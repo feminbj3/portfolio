@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer | Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">FEMIN B J</a>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#profiles" class="nav-link">Profiles</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Frontend Developer</h1>
+                <p class="hero-subtitle">Creating intuitive and visually stunning web experiences with clean, efficient code.</p>
+                <a href="#projects" class="hero-cta">View My Work</a>
+            </div>
+        </div>
+        <div class="hero-shapes">
+            <svg width="100%" height="100%" viewBox="0 0 500 500" preserveAspectRatio="none">
+                <circle cx="250" cy="250" r="100" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+                <circle cx="250" cy="250" r="150" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+                <circle cx="250" cy="250" r="200" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+            </svg>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="fade-in">My Skills</h2>
+            <p class="fade-in">I specialize in creating responsive, performance-optimized websites and applications with a focus on clean code and modern design principles.</p>
+            
+            <div class="skills-grid">
+                <div class="skill-card fade-in">
+                    <h3><i class="fab fa-html5 skill-icon"></i> HTML5</h3>
+                    <p>Semantic markup, accessibility best practices, and proper document structure.</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="--level: 95;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card fade-in">
+                    <h3><i class="fab fa-css3-alt skill-icon"></i> CSS3</h3>
+                    <p>Advanced animations, responsive design, Flexbox, Grid, and CSS variables.</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="--level: 90;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card fade-in">
+                    <h3><i class="fab fa-js skill-icon"></i> JavaScript</h3>
+                    <p>ES6+, DOM manipulation, event handling, and asynchronous programming.</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="--level: 85;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card fade-in">
+                    <h3><i class="fab fa-python skill-icon"></i> Python</h3>
+                    <p>Data structures, algorithms, automation, and web development.</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="--level: 80;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card fade-in">
+                    <h3><i class="fab fa-java skill-icon"></i> Java</h3>
+                    <p>Object-oriented programming, enterprise applications, and backend systems.</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="--level: 75;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card fade-in">
+                    <h3><i class="fab fa-angular skill-icon"></i> Angular</h3>
+                    <p>Component-based architecture, services, and TypeScript integration.</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="--level: 80;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card fade-in">
+                    <h3><i class="fab fa-git-alt skill-icon"></i> Git</h3>
+                    <p>Version control, branching strategies, and collaborative development.</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="--level: 85;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card fade-in">
+                    <h3><i class="fab fa-node-js skill-icon"></i> Node.js</h3>
+                    <p>Server-side JavaScript, API development, and asynchronous programming.</p>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="--level: 75;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="fade-in">Featured Projects</h2>
+            <p class="fade-in">A selection of my recent work showcasing my frontend development skills and creative approach.</p>
+            
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="./assets/cinephile.png" alt="Movie Review Website">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Cinephile</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">API Integration</span>
+                            <span class="project-tag">CSS and HTML</span>
+                        </div>
+                        <p>A responsive Movie review platform with smooth animations and intuitive user interface.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Demo</a>
+                            <a href="https://github.com/feminbj3/cinephile" class="project-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="./assets/Calorie.png" alt="Dashboard UI">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Tracalorie</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                        </div>
+                        <p>Interactive calorie tracking dashboard with real-time updates and customizable views.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Demo</a>
+                            <a href="#" class="project-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <img src="./assets/portfolio.png" alt="Portfolio Website">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio Template</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML5</span>
+                            <span class="project-tag">CSS3</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                        <p>Minimalist portfolio design with advanced CSS animations and smooth scrolling effects.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Demo</a>
+                            <a href="#" class="project-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Profiles Section -->
+    <section id="profiles" class="section profiles">
+        <div class="container">
+            <h2 class="fade-in">My Coding Profiles</h2>
+            <p class="fade-in">Check out my coding profiles and professional networks to see my problem-solving skills and career journey.</p>
+            
+            <div class="profiles-grid">
+                <div class="profile-card fade-in">
+                    <div class="profile-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="profile-content">
+                        <h3 class="profile-title">LeetCode</h3>
+                        <p>Solved 250+ problems covering data structures, algorithms, and system design.</p>
+                        <a href="https://leetcode.com/u/Femin_B_J/" target="_blank" class="profile-link">View Profile</a>
+                    </div>
+                </div>
+                
+                <div class="profile-card fade-in">
+                    <div class="profile-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="profile-content">
+                        <h3 class="profile-title">GeeksforGeeks</h3>
+                        <p>Active problem solver with contributions to DSA articles and solutions.</p>
+                        <a href="https://www.geeksforgeeks.org/user/fe1231jxev/" target="_blank" class="profile-link">View Profile</a>
+                    </div>
+                </div>
+                
+                <div class="profile-card fade-in">
+                    <div class="profile-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <div class="profile-content">
+                        <h3 class="profile-title">LinkedIn</h3>
+                        <p>Professional network showcasing my career journey, skills and connections.</p>
+                        <a href="https://www.linkedin.com/in/femin-b-j" target="_blank" class="profile-link">View Profile</a>
+                    </div>
+                </div>
+                
+                <div class="profile-card fade-in">
+                    <div class="profile-icon">
+                      <i class="fab fa-github"></i>
+                    </div>
+                    <div class="profile-content">
+                      <h3 class="profile-title">GitHub</h3>
+                      <p>Open source projects and code repositories showcasing my development skills.</p>
+                      <a href="https://github.com/feminbj3" target="_blank" class="profile-link">View Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="fade-in">Get In Touch</h2>
+            <p class="fade-in">Have a project in mind or want to discuss a collaboration? I'd love to hear from you.</p>
+            
+            <div class="contact-content">
+                <div class="contact-info fade-in">
+                    <h3>Let's Connect</h3>
+                    <div class="contact-method">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <span class="contact-text">feminbj3@gmail.com</span>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fas fa-phone contact-icon"></i>
+                        <span class="contact-text">+91 9789660323</span>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+                        <span class="contact-text">Trivandrum ,India</span>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fas fa-clock contact-icon"></i>
+                        <span class="contact-text">Available: 9am - 6pm IST</span>
+                    </div>
+                </div>
+                
+                <form class="contact-form fade-in" name="contact" method="POST" data-netlify="true">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" name="name" required>
+                        <label for="name" class="form-label">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" name="email" required>
+                        <label for="email" class="form-label">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="subject" name="subject" required>
+                        <label for="subject" class="form-label">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="message" name="message" required></textarea>
+                        <label for="message" class="form-label">Your Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/feminbj3" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/femin-b-j" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+            </div>
+            <p class="copyright">© 2025 Femin B J. All rights reserved.</p>
+        </div>
+    </footer>
+
+    
+
+    <script src="./script.js"></script>
+        
+</body>
+</html>
